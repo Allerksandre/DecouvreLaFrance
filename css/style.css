@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Akshar&family=Raleway:wght@300&family=Roboto:wght@500&display=swap";
+@import "components/container.css";
+@import "components/text.css";
+@import "components/title-picture.css";
+@import "components/li.css";
+@import "components/element.css";
+
+body{
+  background-color: #FFEEDD;
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3{
+  font-family: 'Akshar';
+  margin: 0px;
+  padding: 10px;
+}
+h2{
+  letter-spacing: 2px;
+}
+a{
+  text-decoration: none;
+  color : black;
+}
+.text-explication{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title{
+  padding: 0px 0px;
+  background-color: #FFD8BE;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+.menubar{
+  padding: 0px;
+}
+.list-inline {
+  list-style: none;
+  padding: 0px;
+
+}
+
+.cliche{
+  border-radius: 8px;
+}
+.photos-and-explications{
+  margin-top: 5%;
+}
+
+.text{
+  margin-right: 30px;
+  text-align: justify;
+}
+.photo{
+  max-width: 300px;
+  max-height: 300px;
+}
